@@ -1,0 +1,55 @@
+p{
+    color:#666666;
+}
+
+.nav-link{
+    color:#333;
+}
+
+.presentation{
+    margin-top: 100px;
+}
+
+.cards h3, .cards p{
+    color:white;    
+}
+
+.services{
+    background-image: url(../img/background\ 1.png);
+    background-size: cover;
+    padding-top: 75px;
+}
+
+
+/*selecionando filhos diretos ( > )*/
+
+.content-services > h2, .content-services > p{
+    color: white;
+}
+
+.card-service h3{
+    font-size: 24px;
+}
+
+.card-service p{
+    margin-bottom: 0;
+}
+
+.contact{
+    padding-top: 100px;
+}
+
+@media (max-widht: 1199px) {
+
+    .card-service h3{
+        font-size: 20px;
+    }
+    .dentista{
+        text-align: center;
+    }
+    
+    .dentista img{
+        max-width: 250px;
+    }
+    
+}
